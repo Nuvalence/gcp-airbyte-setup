@@ -1,0 +1,8 @@
+tf_service_account              = "ocm-dev@ocm-bootstrap.iam.gserviceaccount.com"
+project                         = "utilization-forecast-test"
+region                          = "us-central1"
+environment                     = "dev"
+internal_vms_range              = "10.10.10.0/24"
+app_cluster_gke_subnet_pods     = "pods"
+app_cluster_gke_subnet_services = "services"
+cluster_name                    = "arbyt-int"
