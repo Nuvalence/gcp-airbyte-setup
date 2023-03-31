@@ -27,4 +27,5 @@
       kubectl --namespace default port-forward $POD_NAME 8080:$CONTAINER_PORT
    ```
    Airbyte should be accessible at `http://127.0.0.1:8080` after executing the last command.
+   
    6. To check the pod status, run `kubectl get pods | grep airbyte`.
